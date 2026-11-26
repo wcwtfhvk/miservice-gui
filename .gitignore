@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+build-gui/
+*.spec
+.eggs/
+*.so
+.tox/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+.mi.token
+.miservice_gui.json
+
+# Keep the two distributable executables in dist/, ignore anything else there
+dist/*
+!dist/MiService-GUI.exe
+!dist/miservice.exe
